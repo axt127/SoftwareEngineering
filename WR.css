@@ -1,0 +1,253 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.App-logo {
+  width: 100px;
+  height: auto;
+  position: absolute; 
+  top: 1px; 
+}
+
+.form-container {
+  width: 100%;
+  margin: 20px auto;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.thick-line {
+  height: 4px;
+  background-color: black;
+  width: 100%; 
+  margin: 0; 
+  position: relative;
+  top: 0;
+}
+
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;  
+  grid-gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.left-sidebar {
+  position: relative; 
+  border-right: 2px solid black; 
+  padding-right: 15px;
+  width: 150px;  
+  box-sizing: border-box;
+  height: 100vh; 
+}
+
+
+.left-sidebar button {
+  position: absolute; 
+  padding: 5px; 
+  border: 1px solid black;
+  background-color: #2dd1ac;
+  cursor: pointer;
+  width: 90%; 
+  height: 40px; 
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 0; 
+  left: 5%; 
+}
+
+
+.purchase-order-btn {
+  top: 60px; 
+}
+
+
+.material-receipt-btn {
+  top: 130px; 
+}
+
+
+.print-form-btn {
+  top: 450px; 
+}
+
+
+.edit-warehouse-btn {
+  top: 500px; 
+}
+
+
+.print-btn {
+  top: 550px; 
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 200px); 
+  
+  
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+.top-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  
+  
+  margin-top: 10px;  
+  margin-left: 10px; 
+}
+
+
+.client-info-wrapper {
+  margin-top: 20px;  
+  margin-left: 20px; 
+  width: auto;
+}
+
+
+.client-info-table {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;  
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;  
+}
+
+.form-row {
+  display: contents;
+}
+
+.form-label, .form-field {
+  border: 2px solid black;
+  padding: 20px;  
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px; 
+}
+
+.form-field input {
+  width: 100%;
+  height: 20px; 
+  padding: 5px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+.hazmat-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 3px solid black; 
+  padding: 2px 5px 0 5px;  
+  
+  align-items: flex-start;
+
+  
+  margin-top: 21px;  
+  margin-left: -160px; 
+  width: 80%; 
+  height: 90px; 
+}
+
+
+.notes-section {
+  margin-top: -130px; 
+  border: 3px solid black; 
+  padding: 10px;
+  grid-column: span 2;
+  width: 50%;  
+  box-sizing: border-box;
+
+ 
+  margin-left: 500px; 
+}
+
+.notes-section textarea {
+  width: 100%; 
+  height: 80px; 
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.table-section {
+  margin-top: 20px;
+  grid-column: span 2;
+
+  
+  margin-top: 120px; 
+  margin-left: 10px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+
+  
+  margin-right: 10px;
+}
+
+.delete-btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.close-btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: #2dd1ac;
+  cursor: pointer;
+}
+
